@@ -1,0 +1,4 @@
+.text_styled {
+  font-size: 14px;
+  @apply text-slate-500 font-bold;
+}

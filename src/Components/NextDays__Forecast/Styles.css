@@ -1,0 +1,12 @@
+.next_forecast_wrapper {
+  background: #ebecf0;
+  @apply px-8 py-8 rounded-3xl;
+}
+
+.forecast_item_wrapper {
+  border-bottom: 2px solid #ddd9;
+}
+
+.forecast_item_wrapper:last-child {
+  border-bottom: 0;
+}

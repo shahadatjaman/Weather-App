@@ -1,0 +1,16 @@
+.air_wrapper {
+  background: #ebecf0;
+  @apply my-4 rounded-3xl p-4;
+}
+
+.air_title_h2 {
+  @apply text-base flex text-slate-500;
+}
+
+.air_item_wrapper {
+  @apply flex mt-3 justify-center;
+}
+
+.air_value {
+  @apply mt-1 block text-3xl font-bold;
+}

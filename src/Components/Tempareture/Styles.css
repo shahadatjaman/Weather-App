@@ -1,0 +1,15 @@
+.tem_wrapper {
+  @apply flex justify-between items-center py-3 px-8;
+}
+
+.h1_styled {
+  @apply text-3xl font-bold mb-1;
+}
+
+.deg_styled {
+  @apply font-bold mt-10 text-5xl;
+}
+
+.rain_chance_styled {
+  @apply text-slate-400 text-sm;
+}

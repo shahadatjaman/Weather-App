@@ -1,0 +1,8 @@
+.today_tem_wrapper {
+  background: #ebecf0;
+  @apply mt-4 p-4 rounded-3xl;
+}
+
+.forecast_wrapper {
+  @apply flex flex-col justify-center items-center;
+}
