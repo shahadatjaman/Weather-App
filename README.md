@@ -72,7 +72,7 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- Thanks to weatherapi for providing the weather data API.
+- Thanks to [weatherapi](https://www.weatherapi.com/) for providing the weather data API.
 - This project was built using React.js, TypeScript, Redux Toolkit, Tailwind CSS, and React Router DOM 6.
 
 ![Weather Application Screenshot](https://res.cloudinary.com/dza2t1htw/image/upload/v1687610806/Screenshot_52_eqgn5f.png)
