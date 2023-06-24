@@ -1,0 +1,21 @@
+.search_wrapper {
+  @apply relative;
+}
+
+.search_input {
+  background: #ebecf0;
+  @apply w-full rounded-lg px-3 py-2 font-medium;
+}
+
+input:focus {
+  outline: none;
+}
+
+.suggetion_wrapper {
+  top: 120%;
+  @apply shadow-sm left-0 w-full h-40 overflow-hidden overflow-y-scroll bg-white px-4;
+}
+
+.empty_message {
+  @apply flex justify-center items-center h-full text-base;
+}
