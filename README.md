@@ -1,6 +1,6 @@
 # Weather Application
 
-![Weather Application Screenshot](/path/to/screenshot.png)
+![Weather Application Screenshot](https://res.cloudinary.com/dza2t1htw/image/upload/v1687610806/Screenshot_52_eqgn5f.png)
 
 A weather application built using React.js and TypeScript. It utilizes Redux Toolkit for state management, Tailwind CSS for styling, and React Router DOM 6 for navigation.
 
