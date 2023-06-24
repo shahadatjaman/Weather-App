@@ -1,11 +1,10 @@
-import Home from "./Pages/Home";
+import { Suspense } from "react";
 
+import { routes } from "./routes";
+import { useRoutes } from "react-router-dom";
+import Loading from "./Shared/Loading";
 function App() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+  return <Suspense fallback={<Loading />}>{useRoutes(routes)}</Suspense>;
 }
 
 export default App;
