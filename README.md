@@ -34,18 +34,12 @@ A weather application built using React.js and TypeScript. It utilizes Redux Too
 4. Obtain an API key from a weather data provider (e.g., OpenWeatherMap) by creating an account on their website.
 
 5. Create a .env file in the project directory and add the following content:
-
- ```bash  
    REACT_APP_SERVER_URL= url or use 'http://api.weatherapi.com/v1'
-   ```bash
    REACT_APP_AUTOCOMPLETE = url or 'https://us1.locationiq.com'
-  ```bash
    REACT_APP_API_KEY_FOR_AUTOCOMPLETE = api_key or 'pk.783d8e32aa8e21d9db146d7da763ee61'
-  
    REACT_APP_API_KEY = api_key or 'a05f026641af48559c074315232006'
-   
  if you have own api key, Replace your-api-key with the API key obtained in the previous step.
- 
+
 ## Usage
 To start the development server, run the following command:
 
