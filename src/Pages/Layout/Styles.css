@@ -1,0 +1,26 @@
+.wrapper {
+  background: url("https://res.cloudinary.com/dza2t1htw/image/upload/v1687606680/noaa-kcvlb727mn8-unsplash_iunv4z.jpg")
+    no-repeat;
+  background-size: cover;
+  position: relative;
+  @apply flex justify-center items-center flex-col;
+}
+.wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000094;
+  z-index: 1;
+}
+
+.content_wrapper {
+  @apply mx-auto rounded-lg p-4;
+  z-index: 999;
+}
+
+.bg_tras {
+  background: #ffffffd9;
+}
