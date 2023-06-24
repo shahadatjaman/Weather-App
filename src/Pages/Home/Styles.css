@@ -1,8 +1,0 @@
-.wrapper {
-  background: #31a8fd;
-  @apply flex justify-center items-center;
-}
-
-.content_wrapper {
-  @apply bg-white mx-auto rounded-lg p-4;
-}
