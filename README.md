@@ -29,7 +29,7 @@ A weather application built using React.js and TypeScript. It utilizes Redux Too
    cd weather-application
 
 3. Install the required dependencies:
-   
+ ```bash
   npm install
 4. Obtain an API key from a weather data provider (e.g., OpenWeatherMap) by creating an account on their website.
 
@@ -37,28 +37,24 @@ A weather application built using React.js and TypeScript. It utilizes Redux Too
 
  ```bash  
    REACT_APP_SERVER_URL= url or use 'http://api.weatherapi.com/v1'
-
+   ```bash
    REACT_APP_AUTOCOMPLETE = url or 'https://us1.locationiq.com'
-
+  ```bash
    REACT_APP_API_KEY_FOR_AUTOCOMPLETE = api_key or 'pk.783d8e32aa8e21d9db146d7da763ee61'
-
+  
    REACT_APP_API_KEY = api_key or 'a05f026641af48559c074315232006'
-
+   
  if you have own api key, Replace your-api-key with the API key obtained in the previous step.
-
-
+ 
 ## Usage
-
 To start the development server, run the following command:
 
 ```bash
-npm start
+  npm install
 
 This will start the application and open it in your default web browser. You can also access it at http://localhost:3000.
 
-
 Use the search bar to enter a location and press Enter or click the Search button. The application will display the current weather data for the specified location, including temperature, humidity, wind speed, and weather conditions.
-
 
 You can switch between metric and imperial units by clicking the unit toggle button in the top-right corner of the weather display.
 
@@ -70,6 +66,7 @@ To build the application for production, use the following command:
 npm run build
 
 This will create an optimized production-ready build in the build directory.
+
 
 ## Contributing
 
